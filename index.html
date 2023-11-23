@@ -1,10 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triccotons</title>
+    <link rel="stylesheet" href="assets/css/main.min.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is the content of my website.</p>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+            <a class="navbar-brand" href="#"><img src='src/images/logo tricot.png' alt='Tricottons image' width="300px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">QUI SOMMES NOUS</a>
+                    <a class="nav-item nav-link" href="#">EVENEMENTS</a>
+                    <a class="nav-item nav-link" href="#">CONTACTER</a>
+                    <a class="nav-item nav-link" href="#">FAIRE UN DON</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container mt-3">
+                <div class="row row-cols-1 row-cols-md-2 ">
+                    <div class="col d-flex justify-content-center align-content-center">
+                        <img src="src/images/photo1.png" alt="Fille avec tricot image">
+                    </div>
+                    <div class="col d-flex justify-content-center align-content-center">
+                        <div>
+                            <img src="src/images/Tricot solidaire ensemble.png" alt="Tricottons ensemble image">
+                            <h2>Pour aider les plus vulnérables à lutter contre le froid</h2>
+                            <div class="d-flex justify-content-center align-content-center">
+                                <img src="src/images/arrow.png" alt="fleche image">
+                                <a href="#" class="btn btn-pink">Faire un don</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 d-flex-column justify-content-center align-content-center">
+                    <div class="col d-flex-column text-center p-5">
+                        <img src="src/images/who-are-we.png" alt="Quis sommes nous?">
+                        <p>Nous organisons des ateliers de tricot gratuits, pour tout le monde, pas besoin d'avoir de l'expérience, juste l'envie d'apprendre et de faire du bien !</p>
+                        <p>Les accessoires réalisés sont destinés aux populations qui dorment à la rue.</p>
+                    </div>
+                    <div class="col d-flex-column text-center">
+                        <img src="src/images/event-knitting.png" alt="Evenementsimage">
+                        <a href="#" class="btn btn-pink mt-5">Evénements</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pink mt-5">
+            <div class="text-center p-5">
+                <h2>Les personnes qui tricotent comme celles qui reçoivent les tricots ressortent grandies de cet acte de solidarité.</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 d-flex-column justify-content-center align-content-center">
+                <div class="col text-center align-items-center my-3 ">
+                    <img src="src/images/heart.png" alt="coeur image">
+                    <p>DONNATEURS</p>
+                    <div>500</div>
+                    <a href="#" class="btn btn-white">FAIRE UN DON</a>
+                </div>
+                <div class="col text-center align-items-center">
+                    <img src="src/images/hanger.png" alt=" image">
+                    <p>DONNATEURS</p>
+                    <div>500</div>
+                    <a href="#" class="btn btn-white">FAIRE UN DON</a>
+                </div>
+                <div class="col text-center align-items-center">
+                    <img src="src/images/knitting.png" alt="tricot image">
+                    <p>DONNATEURS</p>
+                    <div>500</div>
+                    <a href="#" class="btn btn-white">FAIRE UN DON</a>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+
+    </main>
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>

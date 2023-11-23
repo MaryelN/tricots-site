@@ -1,0 +1,23 @@
+{
+  "name": "tricots-site",
+  "version": "1.0.0",
+  "description": "Website for the nonprofit association Tricots",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaryelN/Tricots-asso.git"
+  },
+  "author": "Maryel Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaryelN/Tricots-asso/issues"
+  },
+  "homepage": "https://github.com/MaryelN/Tricots-asso#readme",
+  "devDependencies": {
+  },
+  "overrides": {
+  }
+}

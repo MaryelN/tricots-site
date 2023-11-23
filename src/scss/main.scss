@@ -1,0 +1,33 @@
+$cream: #fcf8f0;
+$dark-pink: #ec5064;
+$pink: #f9a9a5;
+$light-pink: #ffdede;
+$white: #ffffff;
+
+$primary: $dark-pink;
+$secondary: $light-pink;
+$success: $light-pink;
+$info: $lighter-pink;
+$warning: $dark-pink;
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+:root {
+  font-size: 10px;
+}
+
+
+body {
+  background-color: $cream;
+}
+
+.btn-pink {
+  background-color: $pink;
+  height: 20em;
+  width: 20em;
+}
+
+.pink {
+background-color: $light-pink;
+}

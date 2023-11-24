@@ -1,13 +1,13 @@
 $cream: #fcf8f0;
 $dark-pink: #ec5064;
-$pink: #f9a9a5;
+$pink: #fe9c9c;
 $light-pink: #ffdede;
 $white: #ffffff;
 
 $primary: $dark-pink;
 $secondary: $light-pink;
 $success: $light-pink;
-$info: $lighter-pink;
+$info: $pink;
 $warning: $dark-pink;
 
 
@@ -22,12 +22,125 @@ body {
   background-color: $cream;
 }
 
-.btn-pink {
-  background-color: $pink;
-  height: 20em;
-  width: 20em;
+nav{
+  border-radius: 30px;
+  
+  .nav-item {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    color: $cream;
+  }
 }
 
-.pink {
+.hero {
+  h2 {
+    color: $pink;
+  
+  }
+}
+
+.event {
+  margin-top: 15rem;
+  
+  h3 {
+    color: $pink;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
+
+.actions{
+  margin-top: 8rem;
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+  
+  h2{
+    color: $pink;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    font-weight: 500
+  }
+
+  h4 {
+    color: $dark-pink;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
+
+.contact {
+  padding-top: 11rem;
+  padding-bottom: 5rem;
+
+  
+  .contact-text{
+    padding-top: 10rem;
+    
+    h4 {
+      color: $dark-pink;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+    p {
+      color: $dark-pink;
+      font-size: 1.5rem;
+      font-weight: 200;
+    }
+  }
+
+  .contact__form {
+    position: relative;
+    &__form {
+      position: absolute;
+      top: 40%;
+      left: 25%;
+    }
+  }
+}
+
+footer {
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    color: $dark-pink;
+    margin-bottom: 2rem;
+    i{
+      padding: 1rem;
+    }
+  }
+  .nav-item {
+    padding-right: 2rem;
+    .nav-link {
+      color: $dark-pink;
+      font-size: 1.2rem;
+    }
+  }
+  p {
+    color: $dark-pink;
+  }
+}
+
+.btn-pink {
+  background-color: $pink;
+  height: 5rem;
+  width: auto;
+  border-radius: 25px;
+  padding: .5rem 2rem;
+  font-size: 2rem;
+  color: $cream;
+}
+
+.btn-white {
+  background-color: $cream;
+  height: 5rem;
+  width: auto;
+  border-radius: 25px;
+  padding: .5rem 2rem;
+  font-size: 2rem;
+  color: $dark-pink;
+}
+
+.bg-pink {
 background-color: $light-pink;
 }

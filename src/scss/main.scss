@@ -1,17 +1,6 @@
-$cream: #fcf8f0;
-$dark-pink: #ec5064;
-$pink: #fe9c9c;
-$light-pink: #ffdede;
-$white: #ffffff;
+@forward 'donnation.scss';
+@use 'colors' as *;
 
-$primary: $dark-pink;
-$secondary: $light-pink;
-$success: $light-pink;
-$info: $pink;
-$warning: $dark-pink;
-
-
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 :root {
   font-size: 10px;
@@ -20,6 +9,8 @@ $warning: $dark-pink;
 
 body {
   background-color: $cream;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 nav{
@@ -121,6 +112,41 @@ footer {
   }
 }
 
+.btn-1 {
+  background: $dark-pink;
+  border-radius: 25px;
+  border: 2px solid $dark-pink;
+  text-transform: uppercase;
+  padding: .5rem 2rem;
+  min-width: 20rem;
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  color: $dark-pink;
+}
+
+.btn-1::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $cream;
+  z-index: -1;
+  transition: transform 0.5s;
+transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn-1::before{
+  transform: scaleX(0);
+}
+.btn-1:hover::before{
+  transform: scaleX(1);
+}
+
 .btn-pink {
   background-color: $pink;
   height: 5rem;
@@ -143,4 +169,48 @@ footer {
 
 .bg-pink {
 background-color: $light-pink;
+}
+
+section .animate{
+  transition: transform 3s;
+  overflow-x: hidden;
+  filter: blur(1px);
+}
+
+.sec-1 .animate {
+  transform: translateX(-200%);
+}
+
+.sec-1.show-animate .animate {
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+.sec-2 .animate-r {
+  transform: translateX(200%);
+  transition: transform 1.5s;
+  overflow-x: hidden;
+}
+
+.sec-2.show-animate .animate-r {
+  transform: translateX(0);
+}
+
+.sec-2 .animate-l {
+  transform: translateX(-200%);
+  transition: transform 1.5s;
+  overflow-x: hidden;
+}
+
+.sec-2.show-animate .animate-l {
+  transform: translateX(0);
+}
+
+.sec-3 .animate {
+  transform: scale(.7);
+}
+
+.sec-3.show-animate .animate {
+  transform: scale(1);
+  filter: blur(0);  
 }

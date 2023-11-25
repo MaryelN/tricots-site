@@ -11855,12 +11855,53 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.hero-don {
+  margin-top: 5rem;
+  padding: 0 6rem 0 6rem;
+}
+.hero-don .hero-img-1 {
+  width: auto;
+  height: 30rem;
+}
+.hero-don h1 {
+  color: #fe9c9c;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 3rem 0 3rem 0;
+}
+.hero-don .col-2 {
+  padding: 0 10rem 0 10rem;
+}
+.hero-don .hero-img-2 {
+  width: auto;
+  height: 12rem;
+}
+
+.explain {
+  margin-top: 10rem;
+  padding: 0 6rem 0 6rem;
+}
+.explain h2 {
+  color: #ec5064;
+  font-size: 3rem;
+}
+.explain__images {
+  margin-top: 7rem;
+  padding: 0 5rem 0 5rem;
+}
+.explain__images img {
+  width: auto;
+  height: 20rem;
+}
+
 :root {
   font-size: 10px;
 }
 
 body {
   background-color: #fcf8f0;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 nav {
@@ -11872,14 +11913,14 @@ nav .nav-item {
   color: #fcf8f0;
 }
 
-.hero h2, .hero .h2 {
+.hero h2 {
   color: #fe9c9c;
 }
 
 .event {
   margin-top: 15rem;
 }
-.event h3, .event .h3 {
+.event h3 {
   color: #fe9c9c;
   font-size: 2rem;
   font-weight: 500;
@@ -11890,13 +11931,13 @@ nav .nav-item {
   padding-top: 11rem;
   padding-bottom: 11rem;
 }
-.actions h2, .actions .h2 {
+.actions h2 {
   color: #fe9c9c;
   padding-left: 7rem;
   padding-right: 7rem;
   font-weight: 500;
 }
-.actions h4, .actions .h4 {
+.actions h4 {
   color: #ec5064;
   font-size: 2rem;
   font-weight: 500;
@@ -11909,7 +11950,7 @@ nav .nav-item {
 .contact .contact-text {
   padding-top: 10rem;
 }
-.contact .contact-text h4, .contact .contact-text .h4 {
+.contact .contact-text h4 {
   color: #ec5064;
   font-size: 2rem;
   font-weight: 500;
@@ -11948,6 +11989,42 @@ footer p {
   color: #ec5064;
 }
 
+.btn-1 {
+  background: #ec5064;
+  border-radius: 25px;
+  border: 2px solid #ec5064;
+  text-transform: uppercase;
+  padding: 0.5rem 2rem;
+  min-width: 20rem;
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  color: #ec5064;
+}
+
+.btn-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fcf8f0;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn-1::before {
+  transform: scaleX(0);
+}
+
+.btn-1:hover::before {
+  transform: scaleX(1);
+}
+
 .btn-pink {
   background-color: #fe9c9c;
   height: 5rem;
@@ -11970,4 +12047,48 @@ footer p {
 
 .bg-pink {
   background-color: #ffdede;
+}
+
+section .animate {
+  transition: transform 3s;
+  overflow-x: hidden;
+  filter: blur(1px);
+}
+
+.sec-1 .animate {
+  transform: translateX(-200%);
+}
+
+.sec-1.show-animate .animate {
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+.sec-2 .animate-r {
+  transform: translateX(200%);
+  transition: transform 1.5s;
+  overflow-x: hidden;
+}
+
+.sec-2.show-animate .animate-r {
+  transform: translateX(0);
+}
+
+.sec-2 .animate-l {
+  transform: translateX(-200%);
+  transition: transform 1.5s;
+  overflow-x: hidden;
+}
+
+.sec-2.show-animate .animate-l {
+  transform: translateX(0);
+}
+
+.sec-3 .animate {
+  transform: scale(0.7);
+}
+
+.sec-3.show-animate .animate {
+  transform: scale(1);
+  filter: blur(0);
 }/*# sourceMappingURL=main.min.css.map */

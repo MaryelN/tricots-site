@@ -1,0 +1,47 @@
+@use '_colors' as *;
+
+.hero-don {
+  margin-top: 5rem;
+  padding: 0 6rem 0 6rem;
+
+  .hero-img-1 {
+    width: auto;
+    height: 30rem;
+  }
+
+  h1 {
+    color: $pink;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 3rem 0 3rem 0;
+  }
+
+  .col-2{
+    padding: 0 10rem 0 10rem;
+  }
+  
+  .hero-img-2 {
+    width: auto;
+    height: 12rem;
+  }
+}
+
+.explain {
+  margin-top: 10rem;
+  padding: 0 6rem 0 6rem;
+
+  h2 {
+    color: $dark-pink;
+    font-size: 3rem;  
+  }
+
+  &__images {
+    margin-top: 7rem;
+    padding: 0 5rem 0 5rem;
+  
+    img {
+      width: auto;
+      height: 20rem;
+    }
+  }
+}

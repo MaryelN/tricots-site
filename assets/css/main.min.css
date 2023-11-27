@@ -12049,9 +12049,43 @@ nav .nav-item {
   border-radius: 15px;
 }
 
+.hero-event {
+  margin-top: 5rem;
+  padding: 0 5rem 0 5rem;
+}
+.hero-event__title {
+  color: #fe9c9c;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+}
+.hero-event__title h2 {
+  margin-top: 2rem;
+}
 .hero-event__title img {
   width: auto;
   height: 20rem;
+}
+.hero-event__icon {
+  margin: 2rem;
+  width: auto;
+  height: 10rem;
+}
+.hero-event__photo {
+  width: auto;
+  height: 30rem;
+}
+
+.where h2 {
+  color: #ec5064;
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-top: 15rem;
+}
+.where img {
+  margin: 6rem 0 3rem 0;
+  width: 10rem;
+  height: 10rem;
 }
 
 .btn-1 {

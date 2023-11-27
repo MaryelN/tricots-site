@@ -11855,6 +11855,110 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  font-size: 10px;
+}
+
+body {
+  background-color: #fcf8f0;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+footer .icons {
+  display: flex;
+  justify-content: center;
+  color: #ec5064;
+  margin-bottom: 2rem;
+}
+footer .icons i {
+  padding: 1rem;
+}
+footer .nav-item {
+  padding-right: 2rem;
+}
+footer .nav-item .nav-link {
+  color: #ec5064;
+  font-size: 1.2rem;
+}
+footer p {
+  color: #ec5064;
+}
+
+.contact {
+  padding-top: 11rem;
+  padding-bottom: 5rem;
+}
+.contact .contact-text {
+  padding-top: 10rem;
+}
+.contact .contact-text h4 {
+  color: #ec5064;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.contact .contact-text p {
+  color: #ec5064;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.contact .contact__form {
+  position: relative;
+}
+.contact .contact__form__img {
+  width: 80vw;
+  height: auto;
+}
+.contact .contact__form__form {
+  position: absolute;
+  top: 32%;
+  left: 21%;
+  width: 50vw;
+  height: 70%;
+  padding: 1rem 0 1rem 1rem;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+nav {
+  border-radius: 30px;
+}
+nav .nav-item {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  color: #fcf8f0;
+}
+
+.hero h2 {
+  color: #fe9c9c;
+}
+
+.event {
+  margin-top: 15rem;
+}
+.event h3 {
+  color: #fe9c9c;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.actions {
+  margin-top: 8rem;
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+}
+.actions h2 {
+  color: #fe9c9c;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  font-weight: 500;
+}
+.actions h4 {
+  color: #ec5064;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 .hero-don {
   margin-top: 5rem;
 }
@@ -11945,108 +12049,9 @@ textarea.form-control-lg {
   border-radius: 15px;
 }
 
-:root {
-  font-size: 10px;
-}
-
-body {
-  background-color: #fcf8f0;
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-nav {
-  border-radius: 30px;
-}
-nav .nav-item {
-  margin: 0 1rem;
-  font-size: 1.2rem;
-  color: #fcf8f0;
-}
-
-.hero h2 {
-  color: #fe9c9c;
-}
-
-.event {
-  margin-top: 15rem;
-}
-.event h3 {
-  color: #fe9c9c;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-.actions {
-  margin-top: 8rem;
-  padding-top: 11rem;
-  padding-bottom: 11rem;
-}
-.actions h2 {
-  color: #fe9c9c;
-  padding-left: 7rem;
-  padding-right: 7rem;
-  font-weight: 500;
-}
-.actions h4 {
-  color: #ec5064;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-.contact {
-  padding-top: 11rem;
-  padding-bottom: 5rem;
-}
-.contact .contact-text {
-  padding-top: 10rem;
-}
-.contact .contact-text h4 {
-  color: #ec5064;
-  font-size: 2rem;
-  font-weight: 500;
-}
-.contact .contact-text p {
-  color: #ec5064;
-  font-size: 1.5rem;
-  font-weight: 200;
-}
-.contact .contact__form {
-  position: relative;
-}
-.contact .contact__form__img {
-  width: 80vw;
-  height: auto;
-}
-.contact .contact__form__form {
-  position: absolute;
-  top: 32%;
-  left: 21%;
-  width: 50vw;
-  height: 70%;
-  padding: 1rem 0 1rem 1rem;
-  background-color: #ffffff;
-  border-radius: 15px;
-}
-
-footer .icons {
-  display: flex;
-  justify-content: center;
-  color: #ec5064;
-  margin-bottom: 2rem;
-}
-footer .icons i {
-  padding: 1rem;
-}
-footer .nav-item {
-  padding-right: 2rem;
-}
-footer .nav-item .nav-link {
-  color: #ec5064;
-  font-size: 1.2rem;
-}
-footer p {
-  color: #ec5064;
+.hero-event__title img {
+  width: auto;
+  height: 20rem;
 }
 
 .btn-1 {

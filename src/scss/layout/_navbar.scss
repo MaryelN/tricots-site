@@ -1,0 +1,11 @@
+@use '../base/colors' as *;
+
+nav{
+  border-radius: 30px;
+  
+  .nav-item {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    color: $cream;
+  }
+}

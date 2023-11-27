@@ -1,0 +1,60 @@
+@use '../base/colors' as *;
+
+.btn-1 {
+  background: $dark-pink;
+  border-radius: 25px;
+  border: 2px solid $dark-pink;
+  text-transform: uppercase;
+  padding: .5rem 2rem;
+  min-width: 20rem;
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  color: $dark-pink;
+}
+
+.btn-1::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $cream;
+  z-index: -1;
+  transition: transform 0.5s;
+transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn-1::before{
+  transform: scaleX(0);
+}
+.btn-1:hover::before{
+  transform: scaleX(1);
+}
+
+.btn-pink {
+  background-color: $pink;
+  height: 5rem;
+  width: auto;
+  border-radius: 25px;
+  padding: .5rem 2rem;
+  font-size: 2rem;
+  color: $cream;
+}
+
+.btn-white {
+  background-color: $cream;
+  height: 5rem;
+  width: auto;
+  border-radius: 25px;
+  padding: .5rem 2rem;
+  font-size: 2rem;
+  color: $dark-pink;
+}
+
+.bg-pink {
+background-color: $light-pink;
+}

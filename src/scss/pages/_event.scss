@@ -1,0 +1,11 @@
+@use '../base/colors' as *;
+
+.hero-event {
+  
+  &__title {
+    img {
+      width: auto;
+      height: 20rem;
+    }
+  }
+}

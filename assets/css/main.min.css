@@ -11857,11 +11857,10 @@ textarea.form-control-lg {
 }
 .hero-don {
   margin-top: 5rem;
-  padding: 0 6rem 0 6rem;
 }
-.hero-don .hero-img-1 {
+.hero-don__img-1 {
   width: auto;
-  height: 30rem;
+  height: 20rem;
 }
 .hero-don h1 {
   color: #fe9c9c;
@@ -11872,9 +11871,14 @@ textarea.form-control-lg {
 .hero-don .col-2 {
   padding: 0 10rem 0 10rem;
 }
-.hero-don .hero-img-2 {
+.hero-don .hero-don__img-2 {
   width: auto;
-  height: 12rem;
+  height: 10rem;
+}
+.hero-don h4 {
+  color: #ec5064;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .explain {
@@ -11884,14 +11888,61 @@ textarea.form-control-lg {
 .explain h2 {
   color: #ec5064;
   font-size: 3rem;
+  padding: 5rem 0 5rem 0;
 }
-.explain__images {
-  margin-top: 7rem;
-  padding: 0 5rem 0 5rem;
-}
-.explain__images img {
+.explain img {
   width: auto;
   height: 20rem;
+  padding-top: 2rem;
+}
+.explain__text {
+  padding-top: 2rem;
+}
+.explain__text h3 {
+  text-align: center;
+  color: #fe9c9c;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.explain__text img {
+  width: auto;
+  height: 10rem;
+  padding: 2rem 0 2rem 0;
+}
+
+.contact {
+  padding-top: 11rem;
+  padding-bottom: 5rem;
+}
+.contact .contact-text {
+  padding-top: 10rem;
+}
+.contact .contact-text h4 {
+  color: #ec5064;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.contact .contact-text p {
+  color: #ec5064;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.contact .contact__form {
+  position: relative;
+}
+.contact .contact__form__img {
+  width: 80vw;
+  height: auto;
+}
+.contact .contact__form__form {
+  position: absolute;
+  top: 32%;
+  left: 21%;
+  width: 47vw;
+  height: 70%;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #ffffff;
+  border-radius: 15px;
 }
 
 :root {
@@ -11963,10 +12014,19 @@ nav .nav-item {
 .contact .contact__form {
   position: relative;
 }
+.contact .contact__form__img {
+  width: 80vw;
+  height: auto;
+}
 .contact .contact__form__form {
   position: absolute;
-  top: 40%;
-  left: 25%;
+  top: 32%;
+  left: 21%;
+  width: 50vw;
+  height: 70%;
+  padding: 1rem 0 1rem 1rem;
+  background-color: #ffffff;
+  border-radius: 15px;
 }
 
 footer .icons {

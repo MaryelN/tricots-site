@@ -81,12 +81,23 @@ nav{
 
   .contact__form {
     position: relative;
+
+    &__img {
+      width: 80vw;
+      height: auto;
+    }
+
     &__form {
       position: absolute;
-      top: 40%;
-      left: 25%;
+      top: 32%;
+      left: 21%;
+      width: 50vw;
+      height: 70%;
+      padding: 1rem 0 1rem 1rem;
+      background-color: $white;
+      border-radius: 15px;
     }
-  }
+  } 
 }
 
 footer {

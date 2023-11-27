@@ -16,6 +16,7 @@
   </head>
 
   <body>
+
     <main>
       <div class="container-xxl">
         <nav class="navbar navbar-expand-lg navbar-light bg-info">
@@ -56,14 +57,14 @@
 
       <section class="hero-don">
         <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-          <div class="col text-center">
-            <img class="hero-img-1" src="assets/images/make-donnation.png" />
+          <div class="col text-center hero-don__col-1">
+            <img class="hero-don__img-1" src="assets/images/make-donnation.png" />
             <h1>Multiplie l’impact de vos bonnes actions</h1>
           </div>
 
           <div class="col text-center align-items-center">
             <img
-              class="hero-img-2 text"
+              class="hero-don__img-2 text"
               src="assets/images/heart.png"
               alt="coeur image"
             />
@@ -79,29 +80,29 @@
         <div>
           <h2 class="text-center">Que fait ma donation ?</h2>
         </div>
-        <div class="explain__images row row-cols-1 row-cols-md-2 row-cols-lg-3">
-          <div class="col explain__images-1">
-            <img src="assets/images/round1.png" alt="image fille avec tricot" />
-          </div>
-          <div class="col explain__images-2">
+        <div class="explain__images d-flex justify-content-around flex-wrap">
+            <img  class="explain__images-1" 
+                  src="assets/images/round1.png" 
+                  alt="image fille avec tricot" />
             <img
+              class="explain__images-2"
               src="assets/images/round2.png"
               alt="image en se tenant la main"
             />
-          </div>
-          <div class="col explain__images-3">
-            <img src="assets/images/round3.png" alt="image câlin" />
-          </div>
+            <img
+              class="explain__images-3" 
+              src="assets/images/round3.png" 
+              alt="image câlin" />
         </div>
 
-        <div class="row row-cols-1 row-cols-md-3">
-          <div class="col d-flex align-items-center">
+        <div class="row explain__text">
+          <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
             <h3>Mon don est utilisé pour la creation des Ateliers</h3>
           </div>
-          <div class="col text-center">
+          <div class="col-12 col-md-2 text-center">
             <img src="assets/images/knitting-ball.png" alt="boule de cotton" />
           </div>
-          <div class="col d-flex align-items-center">
+          <div class="col-12 col-md-5  d-flex align-items-center justify-content-center">
             <h3>Nous recevons également des dons de pelotes à tricoter</h3>
           </div>
         </div>
@@ -109,9 +110,9 @@
 
       <section class="contact" id="contact">
         <div
-          class="row row-cols-1 row-cols-md-2 justify-content-center align-items-center"
+          class="row row-cols-1 row-cols-lg-2 justify-content-center align-items-center"
         >
-          <div class="col contact__form text-center">
+          <div class="col contact__form">
             <div class="contact__form__img">
               <img
                 src="assets/images/questions.png"
@@ -119,7 +120,7 @@
                 width="600px"
               />
             </div>
-            <div class="contact__form__form row row-cols-2">
+            <div class="contact__form__form row row-cols-1 row-cols-lg-2 ">
               <form class="col">
                 <label for="email" class="form-label">Email</label>
                 <input
@@ -143,7 +144,7 @@
                   <option value="other">autre</option>
                 </select>
               </form>
-              <form class="col">
+              <form class="col  d-flex justify-content-center">
                 <div class="form-floating mt-2">
                   <textarea
                     name="query"
@@ -173,33 +174,36 @@
         </div>
       </section>
     </main>
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link px-2">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#us" class="nav-link px-2">Qui sommes nous</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link px-2">Contacter</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2">Faire un don</a>
+        </li>
+      </ul>
+      <div class="icons">
+        <i class="bi bi-facebook"><a href="#"></a></i>
+        <i class="bi bi-instagram"><a href="#"></a></i>
+        <i class="bi bi-envelope-paper-heart"><a href="#"></a></i>
+      </div>
+      <p class="text-center">
+        Creation de Maryel Navarro <i class="bi bi-moon-stars-fill"></i>
+      </p>
+    </footer>
+
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="src/js/script.js"></script>
+    
   </body>
-  <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item">
-        <a href="index.html" class="nav-link px-2">Home</a>
-      </li>
-      <li class="nav-item">
-        <a href="#us" class="nav-link px-2">Qui sommes nous</a>
-      </li>
-      <li class="nav-item">
-        <a href="#contact" class="nav-link px-2">Contacter</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link px-2">Faire un don</a>
-      </li>
-    </ul>
-    <div class="icons">
-      <i class="bi bi-facebook"><a href="#"></a></i>
-      <i class="bi bi-instagram"><a href="#"></a></i>
-      <i class="bi bi-envelope-paper-heart"><a href="#"></a></i>
-    </div>
-    <p class="text-center">
-      Creation de Maryel Navarro <i class="bi bi-moon-stars-fill"></i>
-    </p>
-  </footer>
 </html>

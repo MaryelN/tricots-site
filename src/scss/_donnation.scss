@@ -2,11 +2,10 @@
 
 .hero-don {
   margin-top: 5rem;
-  padding: 0 6rem 0 6rem;
 
-  .hero-img-1 {
+  &__img-1{
     width: auto;
-    height: 30rem;
+    height: 20rem;
   }
 
   h1 {
@@ -20,9 +19,15 @@
     padding: 0 10rem 0 10rem;
   }
   
-  .hero-img-2 {
+  .hero-don__img-2 {
     width: auto;
-    height: 12rem;
+    height: 10rem;
+  }
+
+  h4 {
+    color: $dark-pink;
+    font-size: 2rem;
+    font-weight: 500;
   }
 }
 
@@ -33,15 +38,75 @@
   h2 {
     color: $dark-pink;
     font-size: 3rem;  
+    padding: 5rem 0 5rem 0;
+  }
+  
+  img {
+    width: auto;
+    height: 20rem;
+    padding-top: 2rem;
   }
 
-  &__images {
-    margin-top: 7rem;
-    padding: 0 5rem 0 5rem;
-  
+  &__text {
+    padding-top: 2rem;
+
+    h3 {
+      text-align: center;
+      color: $pink;
+      font-size: 2rem;
+      font-weight: 500;
+
+    }
+
     img {
       width: auto;
-      height: 20rem;
+      height: 10rem;
+      padding: 2rem 0 2rem 0;
     }
   }
+}
+
+.contact {
+  padding-top: 11rem;
+  padding-bottom: 5rem;
+
+  
+  .contact-text{
+    padding-top: 10rem;
+    
+    h4 {
+      color: $dark-pink;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+    p {
+      color: $dark-pink;
+      font-size: 1.5rem;
+      font-weight: 200;
+    }
+  }
+
+  .contact__form {
+    position: relative;
+
+    &__img {
+      width: 80vw;
+      height: auto;
+    }
+
+    &__form {
+      position: absolute;
+      top: 32%;
+      left: 21%;
+      width: 47vw;
+      height: 70%;
+      padding: 1rem 1rem 1rem 1rem;
+      background-color: $white;
+      border-radius: 15px;
+    }
+} 
+}
+
+@media screen and (max-width: 1024px) {
+  
 }

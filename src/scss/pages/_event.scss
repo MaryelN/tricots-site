@@ -3,7 +3,7 @@
 .hero-event {
   
   margin-top: 5rem;
-  padding: 0 5rem 0 5rem;
+  padding: 0 5rem 5rem 5rem;
   
   &__title {
     color: $pink;
@@ -34,12 +34,14 @@
 }
 
 .where{
+  padding: 10rem 0 10rem 0;
+
   h2 {
     color: $dark-pink;
     font-size: 3.5rem;
     font-weight: 500;
-    margin-top: 15rem;
   }
+  
   img {
     margin: 6rem 0 3rem 0;
     width: 10rem;

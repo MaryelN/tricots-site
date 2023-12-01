@@ -11959,7 +11959,7 @@ nav .nav-item {
 }
 .actions h4 {
   color: #ec5064;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 
@@ -12153,11 +12153,10 @@ nav .nav-item {
 section .animate {
   transition: transform 3s;
   overflow-x: hidden;
-  filter: blur(1px);
 }
 
 .sec-1 .animate {
-  transform: translateX(-200%);
+  transform: translateX(-100%);
 }
 
 .sec-1.show-animate .animate {
@@ -12166,7 +12165,7 @@ section .animate {
 }
 
 .sec-2 .animate-r {
-  transform: translateX(200%);
+  transform: translateX(110%);
   transition: transform 1.5s;
   overflow-x: hidden;
 }
@@ -12176,7 +12175,7 @@ section .animate {
 }
 
 .sec-2 .animate-l {
-  transform: translateX(-200%);
+  transform: translateX(-110%);
   transition: transform 1.5s;
   overflow-x: hidden;
 }
@@ -12192,4 +12191,24 @@ section .animate {
 .sec-3.show-animate .animate {
   transform: scale(1);
   filter: blur(0);
+}
+
+.sec-4 .animate {
+  transform: translateY(-100%);
+}
+
+.sec-4.show-animate .animate {
+  transform: translateY(0);
+}
+
+.explain__images {
+  display: flex;
+  justify-content: around;
+  flex-wrap: wrap;
+}
+.explain__images img {
+  transition: transform 0.3s ease-in-out;
+}
+.explain__images img:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=main.min.css.map */

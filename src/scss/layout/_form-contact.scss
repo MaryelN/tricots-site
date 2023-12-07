@@ -1,0 +1,42 @@
+@use '../base/colors' as *;
+
+.contact {
+  padding-top: 11rem;
+  padding-bottom: 5rem;
+
+  
+  .contact-text{
+    padding-top: 10rem;
+    
+    h4 {
+      color: $dark-pink;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+    p {
+      color: $dark-pink;
+      font-size: 1.5rem;
+      font-weight: 200;
+    }
+  }
+
+  .contact__form {
+    position: relative;
+
+    &__img {
+      width: 80vw;
+      height: auto;
+    }
+
+    &__form {
+      position: absolute;
+      top: 32%;
+      left: 21%;
+      width: 50vw;
+      height: 70%;
+      padding: 1rem 0 1rem 1rem;
+      background-color: $white;
+      border-radius: 15px;
+    }
+  } 
+}

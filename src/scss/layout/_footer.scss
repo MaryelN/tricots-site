@@ -1,0 +1,24 @@
+@use '../base/colors' as *;
+
+footer {
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    color:$dark-pink;
+    margin-bottom: 2rem;
+    i{
+      padding: 1rem;
+    }
+  }
+  .nav-item {
+    padding-right: 2rem;
+    .nav-link {
+      color:$dark-pink;
+      font-size: 1.2rem;
+    }
+  }
+  p {
+    color:$dark-pink;
+  }
+}

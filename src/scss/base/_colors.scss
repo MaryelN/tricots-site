@@ -1,0 +1,17 @@
+$cream: #fcf8f0;
+$dark-pink: #ec5064;
+$pink: #fe9c9c;
+$light-pink: #ffdede;
+$white: #ffffff;
+
+$primary: $dark-pink;
+$secondary: $light-pink;
+$success: $light-pink;
+$info: $pink;
+$warning: $dark-pink;
+$light: $cream;
+$dark: $dark-pink;
+
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+

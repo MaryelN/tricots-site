@@ -1,4 +1,4 @@
-TRICOTS SOLIDAIRES
+TRICOTTONS 
 Site Web avec HTML, CSS, SASS, JavaScript, et le Framework Bootstrap
 
 Objectif: Réaliser une interface utilisateur web statique et adaptable.

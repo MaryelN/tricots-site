@@ -29,7 +29,6 @@ function startAnimationIfVisible() {
     if (isInViewport && !valueDisplay.hasAttribute('data-animated')) {
       let startValue = 0;
       let endValue = parseInt(valueDisplay.getAttribute('data-val'), 10);
-      console.log(`endValue for this element: ${endValue}`);
 
       let duration = Math.floor(interval / (endValue - startValue));
 

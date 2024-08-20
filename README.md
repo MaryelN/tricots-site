@@ -1,49 +1,75 @@
-TRICOTTONS 
-Site Web avec HTML, CSS, SASS, JavaScript, et le Framework Bootstrap
+# TRICOTTONS Site Web
 
-Objectif: Réaliser une interface utilisateur web statique et adaptable.
+## Description du Projet
 
-Contexte du Projet
+Le site web "TRICOTTONS" est une vitrine en ligne pour l'association Tricottons. Ce projet vise à créer une interface utilisateur statique et adaptable, permettant de donner plus de visibilité à l'association et d'encourager la participation aux événements ainsi que les dons.
 
-Un site vitrine pour l'association Tricottons.
+Réalisé avec les technologies modernes telles que HTML, CSS, SASS, JavaScript, et Bootstrap, ce site offre une expérience utilisateur fluide et optimisée pour tous les appareils, suivant une logique "mobile-first".
 
-Technologies Utilisées
+## Contexte du Projet
 
-    HTML/CSS/Bootstrap :  avec l'aide du framework Bootstrap pour fournit une grille réactive et des composants prêts à l'emploi, permettant une mise en page rapide et cohérente.
-    SASS : Pour faciliter la création de styles réutilisables et la gestion efficace des feuilles de style.
-    JavaScript : Pour rendre le site plus attractif.
+Tricottons est une association à but non lucratif qui organise des rassemblements de tricot gratuits pour fabriquer des accessoires tricotés destinés aux personnes dans le besoin pendant la saison hivernale. Le site informe les utilisateurs sur l'association, présente les événements passés et futurs, et sollicite des dons pour soutenir la cause.
 
-Contenu
+## Technologies Utilisées
+
+- **HTML/CSS/Bootstrap** : Utilisation du framework Bootstrap pour fournir une grille réactive et des composants prêts à l'emploi, facilitant une mise en page rapide et cohérente.
+- **SASS** : Pour la création de styles réutilisables et la gestion efficace des feuilles de style.
+- **JavaScript** : Pour ajouter des fonctionnalités interactives et rendre le site plus attractif.
+
+## Contenu
 
 Le site se compose de 3 pages principales :
 
-    Page relative à l'association :
-        Présentation détaillée de l'association Tricottons.
-        Informations les valeurs, et les objectifs.
-        Form de contact.
+### 1. Page relative à l'association :
+- **Présentation de l'association** : Détails sur l'association Tricottons, ses valeurs, et ses objectifs.
+- **Formulaire de contact** : Permet aux visiteurs de contacter l'association.
 
-    Page publicitaire des événements nationaux :
-        Détails sur les événements à venir, 
-        Photos des événements passés,
-        Google maps.
+### 2. Page publicitaire des événements nationaux :
+- **Détails des événements** : Informations sur les événements à venir.
+- **Photos des événements passés** : Galerie d'images pour illustrer les activités précédentes.
+- **Google Maps** : Intégration de Google Maps pour localiser les événements.
 
-    Page de dons :
-        Appel à l'action pour solliciter des dons.
-        Informations sur la manière de contribuer et soutenir la cause.
+### 3. Page de dons :
+- **Appel à l'action** : Encourage les visiteurs à faire des dons pour soutenir l'association.
+- **Informations sur les dons** : Explication des différentes manières de contribuer.
 
-Modalités
+## Modalités
 
-Le design de l'interface suit la logique "mobile-first", garantissant une expérience utilisateur optimale sur tous les appareils.
-Résumé
+Le design de l'interface suit la logique "mobile-first", garantissant une expérience utilisateur optimale sur tous les appareils. Le site a été inspiré par "Le Blog Tricot - Tricots Solidaires".
 
-Ce site a été créé dans le but de donner une visibilité accrue à l'association Tricots, en s'inspirant du site réel Le Blog Tricot - Tricots Solidaires. 
-Tricots Solidaires est une association à but non lucratif qui organise des rassemblements de tricot gratuits, fournissant des accessoires tricotés aux personnes dans le besoin pendant la saison hivernale. 
-Le site informe et encourage la participation à ces rassemblements via la page événements, tout en sollicitant des dons sur la page dédiée.
+## Screenshots
 
-Maquette et Wireframe
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <img src="assets/images/screenshots/tricot-1.png" alt="Page d'accueil Screenshot" width="400">
+    <img src="assets/images/screenshots/tricot-2.png" alt="Evenements Screenshot" width="400">
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+    <img src="assets/images/screenshots/tricot-3.png" alt="Contact Screenshot" width="400">
+    <img src="assets/images/screenshots/tricot-wireframe-3.png" alt="Wireframe Screenshot" width="400">
+</div>
+
+## Exécution du Projet avec Docker
+
+### Prérequis
+
+- [Docker](https://www.docker.com/get-started) doit être installé sur votre système.
+
+### Construction de l'image Docker
+
+Pour construire l'image Docker de ce projet, exécutez la commande suivante dans le répertoire racine du projet :
+```sh
+docker build -t web-tricots .
+```
+Pour exécuter le conteneur Docker et accéder au site web, utilisez la commande suivante :
+```sh
+docker run -d -p 8080:80 web-tricots
+```
+
+### Maquette et Wireframe
 
 Les maquettes et wireframes du projet ont été conçus avec Figma pour visualiser et planifier l'interface utilisateur. Vous pouvez consulter ces conceptions détaillées 
-[ici] https://www.figma.com/file/lXbaDSTb07MylRIHjcXVTV/Untitled?type=design&node-id=3%3A697&mode=design&t=1AkzZ8pxSRLo9QEK-1 
+[ici] [https://www.figma.com/file/lXbaDSTb07MylRIHjcXVTV/Untitled?type=design&node-id=3%3A697&mode=design&t=1AkzZ8pxSRLo9QEK-1 ](https://www.figma.com/design/lXbaDSTb07MylRIHjcXVTV/tricots-wireframe?node-id=0-1&t=hJk2mMdacTKXb7mq-1)
 
 Comment Consulter le Projet
 

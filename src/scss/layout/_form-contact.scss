@@ -6,7 +6,6 @@
 
   
   .contact-text{
-    padding-top: 10rem;
     
     h4 {
       color: $dark-pink;
@@ -30,9 +29,6 @@
 
     &__form {
       position: absolute;
-      top: 32%;
-      left: 21%;
-      width: 50vw;
       height: 70%;
       padding: 1rem 0 1rem 1rem;
       background-color: $white;

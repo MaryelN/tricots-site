@@ -11893,9 +11893,6 @@ footer p {
   padding-top: 11rem;
   padding-bottom: 5rem;
 }
-.contact .contact-text {
-  padding-top: 10rem;
-}
 .contact .contact-text h4 {
   color: #ec5064;
   font-size: 2rem;
@@ -11915,9 +11912,6 @@ footer p {
 }
 .contact .contact__form__form {
   position: absolute;
-  top: 32%;
-  left: 21%;
-  width: 50vw;
   height: 70%;
   padding: 1rem 0 1rem 1rem;
   background-color: #ffffff;

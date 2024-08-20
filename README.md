@@ -46,7 +46,7 @@ Le design de l'interface suit la logique "mobile-first", garantissant une expér
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
     <img src="assets/images/screenshots/tricot-3.png" alt="Contact Screenshot" width="400">
-    <img src="assets/images/screenshots/tricot-wireframe-3.png" alt="Wireframe Screenshot" width="400">
+    <img src="assets/images/screenshots/tricot-wireframe.png" alt="Wireframe Screenshot" width="400">
 </div>
 
 ## Exécution du Projet avec Docker

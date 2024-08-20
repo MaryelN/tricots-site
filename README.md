@@ -15,6 +15,8 @@ Tricottons est une association à but non lucratif qui organise des rassemblemen
 - **HTML/CSS/Bootstrap** : Utilisation du framework Bootstrap pour fournir une grille réactive et des composants prêts à l'emploi, facilitant une mise en page rapide et cohérente.
 - **SASS** : Pour la création de styles réutilisables et la gestion efficace des feuilles de style.
 - **JavaScript** : Pour ajouter des fonctionnalités interactives et rendre le site plus attractif.
+- **Docker** : Pour containeriser l'application, facilitant le déploiement et l'exécution sur différentes plateformes.
+
 
 ## Contenu
 
@@ -40,12 +42,12 @@ Le design de l'interface suit la logique "mobile-first", garantissant une expér
 ## Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-    <img src="assets/images/screenshots/tricot-1.png" alt="Page d'accueil Screenshot" width="400">
-    <img src="assets/images/screenshots/tricot-2.png" alt="Evenements Screenshot" width="400">
+    <img src="assets/images/screenshots/tricot-1.png" alt="Page d'accueil Screenshot" width="300">
+    <img src="assets/images/screenshots/tricot-2.png" alt="Evenements Screenshot" width="300">
+     <img src="assets/images/screenshots/tricot-3.png" alt="Contact Screenshot" width="300">
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
-    <img src="assets/images/screenshots/tricot-3.png" alt="Contact Screenshot" width="400">
     <img src="assets/images/screenshots/tricot-wireframe.png" alt="Wireframe Screenshot" width="400">
 </div>
 
@@ -53,17 +55,17 @@ Le design de l'interface suit la logique "mobile-first", garantissant une expér
 
 ### Prérequis
 
-- [Docker](https://www.docker.com/get-started) doit être installé sur votre système.
+- **Docker** doit être installé sur votre machine. Si ce n'est pas déjà fait, vous pouvez télécharger et installer Docker en suivant les instructions sur le site officiel : [Installer Docker](https://docs.docker.com/get-docker/).
 
-### Construction de l'image Docker
+### Étapes pour exécuter le projet localement
 
-Pour construire l'image Docker de ce projet, exécutez la commande suivante dans le répertoire racine du projet :
+**Pour tirer l'image de ce projet depuis Docker Hub, exécutez la commande suivante :**
 ```sh
-docker build -t web-tricots .
+docker pull maryeln/web-tricots
 ```
-Pour exécuter le conteneur Docker et accéder au site web, utilisez la commande suivante :
+**Pour exécuter le conteneur Docker et accéder au site web, utilisez la commande suivante :**
 ```sh
-docker run -d -p 8080:80 web-tricots
+docker run -d -p 8080:80 maryeln/web-tricots
 ```
 
 ### Maquette et Wireframe
@@ -73,4 +75,4 @@ Les maquettes et wireframes du projet ont été conçus avec Figma pour visualis
 
 Comment Consulter le Projet
 
-Le projet est déployé sur GitHub Pages. Vous pouvez explorer le site en direct en suivant ce [lien vers la page GitHub Pages] https://maryeln.github.io/tricots-site/
+Le projet est aussi déployé avec GitHub Pages. Vous pouvez explorer le site en direct en suivant ce [lien vers la page GitHub Pages] https://maryeln.github.io/tricots-site/
